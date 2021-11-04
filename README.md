@@ -107,6 +107,14 @@ pnpm build:watch # for debug modules only
 pnpm build:sandbox # for debug modules with sandbox (alias `pnpm start`)
 ```
 
+### CodeCov CI
+
+If you have successfully set up CodeCov, if you push or PR to the `main` branch, CodeCov Coverage is automatically updated.
+
+<p align="center">
+  <img src="https://i.imgur.com/e0mN1Kc.png" alt="CodeCov CI Image" with="480">
+</p>
+
 ### Publish to NPM
 
 First, you need to deploy module with a Tag on GitHub using the [`npm version patch`](https://docs.npmjs.com/cli/v7/commands/npm-version) command.
