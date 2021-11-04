@@ -1,0 +1,31 @@
+{
+  "name": "ts-rollup-npm-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for building a TypeScript + Rollup + Vite module that can be published to NPM.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "README.md",
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gumball12/ts-rollup-npm-vite-boilerplate.git"
+  },
+  "author": "Gumball12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gumball12/ts-rollup-npm-vite-boilerplate/issues"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint",
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "homepage": "https://github.com/Gumball12/ts-rollup-npm-vite-boilerplate#readme"
+}
