@@ -1,0 +1,38 @@
+name: publish
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.15.1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'pnpm'
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@your-npm-account-name'
+
+      - uses: actions/cache@v2
+        id: pnpm-cache
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+
+      - if: steps.pnpm-cache.outputs.cache-hit != 'true'
+        run: pnpm install
+
+      - run: pnpm run build
+
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
