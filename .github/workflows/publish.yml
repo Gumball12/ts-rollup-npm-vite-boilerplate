@@ -17,7 +17,7 @@ jobs:
           node-version: 16
           cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@your-npm-account-name'
+          scope: '@gumball12'
 
       - uses: actions/cache@v2
         id: pnpm-cache
