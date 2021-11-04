@@ -7,8 +7,10 @@ specifiers:
   '@typescript-eslint/parser': ^5.3.0
   cross-env: ^7.0.3
   eslint: ^8.1.0
+  htm: ^3.1.0
   jest: ^27.3.1
   lint-staged: ^11.2.6
+  preact: ^10.5.15
   prettier: ^2.4.1
   rollup: ^2.59.0
   rollup-plugin-dts: ^4.0.0
@@ -26,8 +28,10 @@ devDependencies:
   '@typescript-eslint/parser': 5.3.0_eslint@8.1.0+typescript@4.4.4
   cross-env: 7.0.3
   eslint: 8.1.0
+  htm: 3.1.0
   jest: 27.3.1
   lint-staged: 11.2.6
+  preact: 10.5.15
   prettier: 2.4.1
   rollup: 2.59.0
   rollup-plugin-dts: 4.0.0_rollup@2.59.0+typescript@4.4.4
@@ -1967,6 +1971,10 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /htm/3.1.0:
+    resolution: {integrity: sha512-L0s3Sid5r6YwrEvkig14SK3Emmc+kIjlfLhEGn2Vy3bk21JyDEes4MoDsbJk6luaPp8bugErnxPz86ZuAw6e5Q==}
+    dev: true
+
   /html-encoding-sniffer/2.0.1:
     resolution: {integrity: sha512-D5JbOMBIR/TVZkubHT+OyT2705QvogUW4IBn6nHd756OwieSF9aDYFj4dv6HHEVGYbHaLETa3WggZYWWMyy3ZQ==}
     engines: {node: '>=10'}
@@ -3114,6 +3122,10 @@ packages:
       nanoid: 3.1.30
       picocolors: 1.0.0
       source-map-js: 0.6.2
+    dev: true
+
+  /preact/10.5.15:
+    resolution: {integrity: sha512-5chK29n6QcJc3m1lVrKQSQ+V7K1Gb8HeQY6FViQ5AxCAEGu3DaHffWNDkC9+miZgsLvbvU9rxbV1qinGHMHzqA==}
     dev: true
 
   /prelude-ls/1.1.2:
