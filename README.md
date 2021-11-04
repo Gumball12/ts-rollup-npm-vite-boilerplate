@@ -123,7 +123,11 @@ git push origin <VERSION> # <VERSION> = vX.X.X
 Then Create and Publish a new release on GitHub.
 
 <p align="center">
-  <img src="https://i.imgur.com/Lf4bjZN.png" alt="Publish a new release" with="480">
+  <img src="https://i.imgur.com/2sA23wH.png" alt="Publish a new release" with="480">
 </p>
 
-After completing the above process, you will see the NPM module deploy to `@npm-account-name/<PACKAGE_NAME>`.
+After completing the above process, you will see the NPM module deploy to `@npm-account-name/<PACKAGE_NAME>` like this:
+
+<p align="center">
+  <img src="https://i.imgur.com/2sWxYrf.png" alt="Published NPM Module" with="480">
+</p>
