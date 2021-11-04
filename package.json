@@ -1,6 +1,6 @@
 {
   "name": "ts-rollup-npm-vite-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boilerplate for building a TypeScript + Rollup + Vite module that can be published to NPM.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
