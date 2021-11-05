@@ -1,5 +1,7 @@
 # ts-rollup-npm-vite-boilerplate
 
+[![codecov](https://codecov.io/gh/Gumball12/ts-rollup-npm-vite-boilerplate/branch/main/graph/badge.svg?token=7cwshFg12N)](https://codecov.io/gh/Gumball12/ts-rollup-npm-vite-boilerplate)
+
 Boilerplate for building a TypeScript + Rollup + Vite module that can be published to NPM.
 
 ## ⭐️ Included Packages
