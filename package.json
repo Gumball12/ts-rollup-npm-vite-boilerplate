@@ -9,6 +9,14 @@
     "dist/index.js",
     "dist/index.d.ts"
   ],
+  "keywords": [
+    "template",
+    "boilerplate",
+    "typescript",
+    "sandbox",
+    "rollup",
+    "vite"
+  ],
   "scripts": {
     "test": "jest --runInBand",
     "lint": "eslint --ext .ts ./src/**.ts",
