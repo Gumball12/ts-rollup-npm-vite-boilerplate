@@ -1,6 +1,6 @@
 import { html, render } from 'htm/preact';
 import { useState } from 'preact/hooks';
-import { hello } from '../dist/index.js';
+import { hello } from '../src/index.ts';
 
 const App = () => {
   const [count, setCount] = useState(0);
